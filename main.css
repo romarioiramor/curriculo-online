@@ -1,0 +1,88 @@
+body {
+    background-color: black;
+    height: 100px;
+
+    color: white;
+}
+
+.sidebar {
+    width: 150px;
+    height: 100vh;
+    position: absolute;
+    background: #1D1D22;
+}
+
+.sidebar a, .sidebar a.active, .sidebar a:hover, .sidebar .logo {
+    background: #1D1D22;
+    text-align: center;
+    border: 0px;
+}
+
+.sidebar .logo {
+    border-bottom: 6px solid black;
+}
+
+.sidebar a:not(.active) {
+    color: white;
+}
+
+.sidebar a.active {
+    color: rgb(128, 6, 250);
+}
+
+.sidebar a .bi {
+    font-size: 35px;
+}
+
+.sidebar a.active .bi {
+    font-size: 50px;
+}
+
+.content-site {
+     margin-left: 170px;
+}
+
+.jumbotron {
+    background-color: #1D1D22;
+}
+
+img {
+    border-radius: 50%;
+}
+
+
+/* Timeline style */
+
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+ul.timeline:before {
+    content: ' ';
+    background: rgb(128, 6, 250);
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+ul.timeline > li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid rgb(128, 6, 250);
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+.progress-bar {
+    background: rgb(128, 6, 250);
+}
