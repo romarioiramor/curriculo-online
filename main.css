@@ -7,7 +7,7 @@ body {
 
 .sidebar {
     width: 150px;
-    height: 100vh;
+    height: 180vh;
     position: absolute;
     background: #1D1D22;
 }
@@ -45,7 +45,7 @@ body {
 .jumbotron {
     background-color: #1D1D22;
     text-align: center;
-}
+    }
 
 img {
     border-radius: 50%;
