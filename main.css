@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: #0e1010;
     height: 100px;
 
     color: white;
@@ -7,7 +7,7 @@ body {
 
 .sidebar {
     width: 150px;
-    height: 180vh;
+    height: 100%;
     position: absolute;
     background: #1D1D22;
 }
@@ -43,7 +43,7 @@ body {
 }
 
 .jumbotron {
-    background-color: #1D1D22;
+    background-color: #070708;
     text-align: center;
     }
 
@@ -51,8 +51,49 @@ img {
     border-radius: 50%;
 }
 
+.tab-pane {
+    padding-top: 100px;
+}
 
-/* Timeline style */
+.title-with-border {
+    border-bottom: 1px solid rgb(128, 6, 250);
+    margin-bottom: 40px;
+}
+
+.my-location {
+    margin-left: 10px;
+    color: rgb(128, 6, 250);
+    text-align: left;
+    font-weight: 400;
+}
+
+.about-me-rodape {
+    color: rgb(128, 6, 250);
+    font-weight: bold;
+}
+
+.card.service {
+    background: #070708;
+    text-align: center;
+    min-height: 200px;
+}
+
+.service-icon {
+    border-radius: 100px;
+    width: 80px;
+    height: 80px;
+    padding-top: 24px;
+    background: #070708;
+    margin-left: 35%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.service-icon:hover, .card:hover {
+    border: 1px solid rgb(128, 6, 250);
+}
+
+/* Timeline style INIT */
 
 ul.timeline {
     list-style-type: none;
@@ -87,3 +128,5 @@ ul.timeline > li:before {
 .progress-bar {
     background: rgb(128, 6, 250);
 }
+
+/* Timeline style END */
