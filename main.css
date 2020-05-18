@@ -8,7 +8,7 @@ body {
 .sidebar {
     width: 150px;
     height: 100%;
-    position: absolute;
+    position: fixed;
     background: #1D1D22;
 }
 
@@ -26,16 +26,20 @@ body {
     color: white;
 }
 
+.sidebar a {
+    transition: all 1s ease-in-out;
+}
+
 .sidebar a.active {
     color: rgb(128, 6, 250);
 }
 
 .sidebar a .bi {
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .sidebar a.active .bi {
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .content-site {
@@ -53,11 +57,14 @@ img {
 
 .tab-pane {
     padding-top: 100px;
+    padding-bottom: 100px;
+    
 }
 
 .title-with-border {
     border-bottom: 1px solid rgb(128, 6, 250);
     margin-bottom: 40px;
+    padding-bottom: 5px;
 }
 
 .my-location {
@@ -78,7 +85,7 @@ img {
     min-height: 200px;
 }
 
-.service-icon {
+.card .service-icon {
     border-radius: 100px;
     width: 80px;
     height: 80px;
@@ -89,8 +96,31 @@ img {
     margin-bottom: 30px;
 }
 
-.service-icon:hover, .card:hover {
+.card:hover,
+.card:hover .service-icon {
     border: 1px solid rgb(128, 6, 250);
+    transition: all 0.7s ease-in-out;
+}
+
+.title-course {
+    color: rgb(128, 6, 250);
+    padding-bottom: 15px;
+
+}
+.title-resume {
+    color: rgb(128, 6, 250);
+    padding-bottom: 15px;
+
+}
+
+.skills span {
+    display: block;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.skills span .progress {
+    margin-top: 5px;
 }
 
 /* Timeline style INIT */
@@ -109,13 +139,14 @@ ul.timeline:before {
     height: 100%;
     z-index: 400;
 }
+
 ul.timeline > li {
     margin: 20px 0;
     padding-left: 20px;
 }
 ul.timeline > li:before {
     content: ' ';
-    background: white;
+    background: #070708;
     display: inline-block;
     position: absolute;
     border-radius: 50%;
@@ -125,8 +156,13 @@ ul.timeline > li:before {
     height: 20px;
     z-index: 400;
 }
+
 .progress-bar {
     background: rgb(128, 6, 250);
+}
+
+.progress {
+    background-color: #0e1010;
 }
 
 /* Timeline style END */

@@ -52,6 +52,20 @@
                         <br />
                         Resume
                     </a>
+                    <a class="list-group-item list-group-item-action" id="list-courses-list" data-toggle="list"
+                        href="#list-courses" role="tab" aria-controls="courses">
+                        <svg class="bi bi-bookmark-check" width="1em" height="1em" viewBox="0 0 16 16"
+                            fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M4.5 2a.5.5 0 00-.5.5v11.066l4-2.667 4 2.667V8.5a.5.5 0 011 0v6.934l-5-3.333-5 3.333V2.5A1.5 1.5 0 014.5 1h4a.5.5 0 010 1h-4z"
+                                clip-rule="evenodd" />
+                            <path fill-rule="evenodd"
+                                d="M15.854 2.146a.5.5 0 010 .708l-3 3a.5.5 0 01-.708 0l-1.5-1.5a.5.5 0 01.708-.708L12.5 4.793l2.646-2.647a.5.5 0 01.708 0z"
+                                clip-rule="evenodd" />
+                        </svg>
+                        <br />
+                        Courses
+                    </a>
                     <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list"
                         href="#list-messages" role="tab" aria-controls="messages">
                         <svg class="bi bi-envelope-fill" width="1em" height="1em" viewBox="0 0 16 16"
@@ -79,7 +93,8 @@
                                     <div class="media-body" style="text-align: left;">
                                         <h3 class="mt-0">Romário Medeiros</h3>
                                         <div class="row">
-                                            <i class="fas fa-map-marked-alt fa-1x" style="margin-left: 18px; color:#30d44d;"></i>
+                                            <i class="fas fa-map-marked-alt fa-1x"
+                                                style="margin-left: 18px; color:#30d44d;"></i>
                                             <h6 class="mt-0 my-location">Brasília DF - Brazil</h6>
                                         </div>
                                         <br />
@@ -104,7 +119,7 @@
                                         <h8 class="about-me-rodape">Available for hire</h8>
                                     </div>
                                     <div class="col-md-4">
-                                        <a href="#">
+                                        <a target="_blanck" href="https://drive.google.com/file/d/1J-NcpBOgEz7LOdDcoOnvfQ1MqUlXgzh8/view?usp=sharing">
                                             <i class="fas fa-download fa-2x" style="color: white;"></i>
                                             <h8 class="about-me-rodape">Download CV</h8>
                                         </a>
@@ -115,7 +130,7 @@
                         <div class="row justify-content-md-center">
                             <h1 class="title-with-border">Services</h1>
                         </div>
-                        <br />
+
                         <div class="row justify-content-md-center">
                             <div class="row col-md-10">
                                 <div class="col-md-4">
@@ -125,9 +140,7 @@
                                                 <i class="fas fa-tv fa-2x"></i>
                                             </div>
                                             <h5 class="card-title">Front End Developer</h5>
-
                                             <p class="card-text">HTML, CSS e Javascript ( Angular )</p>
-
                                         </div>
                                     </div>
                                 </div>
@@ -163,11 +176,11 @@
                                     <div class="card service">
                                         <div class="card-body">
                                             <div class="service-icon">
-                                                <i class="fas fa-tv fa-2x"></i>
+                                                <i class="fas fa-tools fa-2x"></i>
                                             </div>
-                                            <h5 class="card-title">Front End Developer</h5>
+                                            <h5 class="card-title">Tools</h5>
 
-                                            <p class="card-text">HTML, CSS e Javascript ( Angular )</p>
+                                            <p class="card-text">VS Code, STS, Eclipse, Git & GitHub, Scrum, Bootstrap</p>
 
                                         </div>
                                     </div>
@@ -175,7 +188,7 @@
                             </div>
                         </div>
                     </div>
-                    <br/>
+
                     <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
                         <div class="row justify-content-md-center">
                             <h1 class="title-with-border">Resume</h1>
@@ -187,21 +200,27 @@
                                         <h3>Experience</h3>
                                         <ul class="timeline">
                                             <li>
-                                                <a href="#">Internship - User Support</a>
-                                                <a href="#" class="float-right">Agosto, 2019 | TJDFT</a>
+                                                <h6 class="title-resume">
+                                                    <a>Internship - User Support</a>
+                                                    <a class="float-right">Agosto, 2019 | TJDFT</a>
+                                                </h6>
                                                 <p>
                                                     Customer service, consultation of information in the system,
                                                     scheduling of new legal proceedings.
                                                 </p>
                                             </li>
                                             <li>
-                                                <a href="#">Internship - PHP Web Developer</a>
-                                                <a href="#" class="float-right">April, 2019 | TRANSOFT</a>
+                                                <h6 class="title-resume">
+                                                    <a>PHP Web Developer</a>
+                                                    <a class="float-right">April, 2019 | TRANSOFT</a>
+                                                </h6>
                                                 <p>Maintenance of legacy systems and development of new features.</p>
                                             </li>
                                             <li>
-                                                <a href="#">HR Administrator</a>
-                                                <a href="#" class="float-right">December, 2014 | ABC Agricola</a>
+                                                <h6 class="title-resume">
+                                                    <a>HR Administrator</a>
+                                                    <a class="float-right">December, 2014 | ABC Agricola</a>
+                                                </h6>
                                                 <p>
                                                     HR control in general, time sheet control, inventory and equipment
                                                     control,
@@ -215,15 +234,21 @@
                                         <h3>Formation</h3>
                                         <ul class="timeline">
                                             <li>
-                                                <a href="#">Human Resources Technician</a>
-                                                <a href="#" class="float-right">2009 - 2010</a>
+                                                <h6 class="title-resume">
+                                                    <a>Human Resources Technician</a>
+                                                    <a class="float-right">2009 - 2010</a>
+                                                </h6>
                                             </li>
                                             <li>
-                                                <a href="#">Analysis and systems development</a>
-                                                <a href="#" class="float-right">2018 - 2020</a>
+                                                <h6 class="title-resume">
+                                                    <a>Analysis and systems development</a>
+                                                    <a class="float-right">2018 - 2020</a>
+                                                </h6>
                                             </li>
                                             <li>
-                                                <a href="#">CERTIFICATION</a>
+                                                <h5>
+                                                    <a>CERTIFICATION</a>
+                                                </h5>
                                                 <br />
                                                 SAP ERP INTELLIGENCE (Fundamentals in the main transactions of the
                                                 modules PP, MM, SD, QM, PM e FI/CO).
@@ -241,7 +266,7 @@
                             <h1 class="title-with-border">Skills</h1>
                         </div>
                         <div class="row justify-content-md-center">
-                            <div class="col-md-10">
+                            <div class="jumbotron col-md-10 skills" style="text-align: left;">
                                 <span>
                                     HTML 5
                                     <div class="progress">
@@ -357,7 +382,59 @@
                             </div>
                         </div>
                     </div>
-                    <br/>
+
+                    <div class="tab-pane fade" id="list-courses" role="tabpanel" aria-labelledby="list-messages-list">
+                        <div class="row justify-content-md-center">
+                            <h1 class="title-with-border">Courses</h1>
+                        </div>
+                        <div class="row justify-content-md-center">
+                            <div class="jumbotron col-md-10">
+                                <div class="row col-md-12 ">
+                                    <div class="row" style="text-align: left;">
+                                        <ul class="timeline">
+                                            <li>
+                                                <p class="title-course">Launchbase (Back-End & Front-End) - Rocketseat |
+                                                    March 2020</p>
+                                                <p>
+                                                    6-week online bootcamp training. Each week the contents are released
+                                                    according
+                                                    to a schedule,
+                                                    guiding the student through the most modern tools and concepts of
+                                                    market
+                                                    development.
+                                                </p>
+                                            <li>
+                                                <p class="title-course">Angular - Loianne Training | December 2019</p>
+                                                <p>
+                                                    Angular, from basics to advancement.
+                                                </p>
+                                            </li>
+                                            </p>
+                                            <li>
+                                                <p class="title-course">Java - JSF, Primefaces, Hibernate, Springboot -
+                                                    Algaworks | August 2019
+                                                </p>
+                                                <p>
+                                                    Java project development Backend and Frontend, using several
+                                                    libraries currently used in the job market.
+                                                </p>
+                                            </li>
+                                            </p>
+                                            <li>
+                                                <p class="title-course">Cursos de aprimoramento e revisao - Alura | 2019
+                                                    - 2020</p>
+                                                <p>
+                                                    Several courses for learning and improvement. <a target="_blanck"
+                                                        href="https://cursos.alura.com.br/user/romario-adsistemas/fullCertificate/d2cc1234316d2223eaff6d6df624b9c0">Certificate</a>
+                                                </p>
+                                            </li>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
                         <div class="row justify-content-md-center">
                             <h1 class="title-with-border">Contact</h1>
@@ -383,7 +460,7 @@
                                         <i class="fab fa-whatsapp-square fa-5x"
                                             style="margin-left: 10px; color: #30d44d;"></i>
                                         <br />
-                                        (+55) 61 993152129
+                                        +55 (61) 9 9315-2129
                                     </div>
                                     <div class="col-md-3">
                                         <i class="fab fa-github-square fa-5x"></i>
@@ -396,10 +473,10 @@
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
-    </div>
 </body>
 
 </html>
