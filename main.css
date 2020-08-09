@@ -1,168 +1,224 @@
 body {
-    background-color: #0e1010;
-    height: 100px;
-
-    color: white;
+  background-color: #0e1010;
+  height: 100%;
+  color: white;
 }
 
 .sidebar {
-    width: 150px;
-    height: 100%;
-    position: fixed;
-    background: #1D1D22;
+  width: 150px;
+  height: 100%;
+  position: fixed;
+  background: #1d1d22;
 }
 
-.sidebar a, .sidebar a.active, .sidebar a:hover, .sidebar .logo {
-    background: #1D1D22;
-    text-align: center;
-    border: 0px;
+.sidebar a,
+.sidebar a.active,
+.sidebar a:hover,
+.sidebar .logo {
+  background: #1d1d22;
+  text-align: center;
+  border: 0px;
 }
 
 .sidebar .logo {
-    border-bottom: 6px solid black;
+  border-bottom: 6px solid black;
 }
 
 .sidebar a:not(.active) {
-    color: white;
+  color: white;
 }
 
 .sidebar a {
-    transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
 .sidebar a.active {
-    color: rgb(128, 6, 250);
+  color: rgb(128, 6, 250);
 }
 
 .sidebar a .bi {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 .sidebar a.active .bi {
-    font-size: 40px;
+  font-size: 40px;
 }
 
 .content-site {
-     margin-left: 170px;
+  margin-left: 170px;
 }
 
 .jumbotron {
-    background-color: #070708;
-    text-align: center;
-    }
+  background-color: #070708;
+  text-align: center;
+}
 
 img {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
 .tab-pane {
-    padding-top: 100px;
-    padding-bottom: 100px;
-    
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .title-with-border {
-    border-bottom: 1px solid rgb(128, 6, 250);
-    margin-bottom: 40px;
-    padding-bottom: 5px;
+  border-bottom: 1px solid #8006fa;
+  margin-left: 48;
+  margin-right: 48;
+  margin-bottom: 40px;
+  padding-bottom: 5px;
+  text-align: center;
 }
 
 .my-location {
-    margin-left: 10px;
-    color: rgb(128, 6, 250);
-    text-align: left;
-    font-weight: 400;
+  margin-left: 10px;
+  color: rgb(128, 6, 250);
+  text-align: left;
+  font-weight: 400;
 }
 
 .about-me-rodape {
-    color: rgb(128, 6, 250);
-    font-weight: bold;
+  color: rgb(128, 6, 250);
+  font-weight: bold;
 }
 
 .card.service {
-    background: #070708;
-    text-align: center;
-    min-height: 200px;
+  background: #070708;
+  text-align: center;
+  min-height: 200px;
 }
 
 .card .service-icon {
-    border-radius: 100px;
-    width: 80px;
-    height: 80px;
-    padding-top: 24px;
-    background: #070708;
-    margin-left: 35%;
-    margin-top: 20px;
-    margin-bottom: 30px;
+  border-radius: 100px;
+  width: 80px;
+  height: 80px;
+  padding-top: 24px;
+  background: #070708;
+  margin-bottom: 30px;
+}
+
+.card-body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .card:hover,
 .card:hover .service-icon {
-    border: 1px solid rgb(128, 6, 250);
-    transition: all 0.7s ease-in-out;
+  border: 1px solid rgb(128, 6, 250);
+  transition: all 0.7s ease-in-out;
 }
 
 .title-course {
-    color: rgb(128, 6, 250);
-    padding-bottom: 15px;
-
+  color: rgb(128, 6, 250);
+  padding-bottom: 15px;
 }
 .title-resume {
-    color: rgb(128, 6, 250);
-    padding-bottom: 15px;
-
+  color: rgb(128, 6, 250);
+  padding-bottom: 15px;
 }
 
 .skills span {
-    display: block;
-    margin-bottom: 15px;
-    font-weight: bold;
+  display: block;
+  margin-bottom: 15px;
+  font-weight: bold;
 }
 
 .skills span .progress {
-    margin-top: 5px;
+  margin-top: 5px;
 }
 
 /* Timeline style INIT */
 
 ul.timeline {
-    list-style-type: none;
-    position: relative;
+  list-style-type: none;
+  position: relative;
 }
 ul.timeline:before {
-    content: ' ';
-    background: rgb(128, 6, 250);
-    display: inline-block;
-    position: absolute;
-    left: 29px;
-    width: 2px;
-    height: 100%;
-    z-index: 400;
+  content: " ";
+  background: rgb(128, 6, 250);
+  display: inline-block;
+  position: absolute;
+  left: 29px;
+  width: 2px;
+  height: 100%;
+  z-index: 400;
 }
 
 ul.timeline > li {
-    margin: 20px 0;
-    padding-left: 20px;
+  margin: 20px 0;
+  padding-left: 20px;
 }
 ul.timeline > li:before {
-    content: ' ';
-    background: #070708;
-    display: inline-block;
-    position: absolute;
-    border-radius: 50%;
-    border: 3px solid rgb(128, 6, 250);
-    left: 20px;
-    width: 20px;
-    height: 20px;
-    z-index: 400;
+  content: " ";
+  background: #070708;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid #8006fa;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  z-index: 400;
 }
 
 .progress-bar {
-    background: rgb(128, 6, 250);
+  background: rgb(128, 6, 250);
 }
 
 .progress {
-    background-color: #0e1010;
+  background-color: #0e1010;
+}
+
+.padding-element {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navbar {
+    display: none;
+    background: #8006fa;
+    
+}
+.nav-link {
+    color: white !important;
+    font: bold;
 }
 
 /* Timeline style END */
+
+@media (max-width: 600px) {
+  #list-tab {
+    display: none;
+  }
+  .navbar {
+      display: block;
+      text-align: end;
+    }
+  
+  .content-site {
+    margin-left: 0px;
+  }
+  .tab-pane {
+      padding-top: 10px;
+  }
+}
+
+@media (min-width: 1200px) {
+    .padding-element {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+@media (max-width: 950px) {
+  .media img {
+    display: none;
+  }
+
+  .media h3 {
+      text-align: center;
+  }
+
+}

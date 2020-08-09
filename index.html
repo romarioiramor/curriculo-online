@@ -1,7 +1,9 @@
 <html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <head>
-    <title>Desenvolvedor Web Junior</title>
+    <title>Romário Medeiros</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
@@ -13,6 +15,34 @@
 </head>
 
 <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-ligth">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav list-group" role="tablist">
+
+                <a class="nav-link active" data-toggle="list"
+                href="#list-home" role="tab" aria-controls="home">About <span class="sr-only">(current)</span></a>
+
+                <a class="nav-link" data-toggle="list"
+                        href="#list-profile" role="tab" aria-controls="profile">Resume</a>
+
+                <a class="nav-link" data-toggle="list"
+                        href="#list-courses" role="tab" aria-controls="courses">Courses</a>
+
+                <a class="nav-link" data-toggle="list"
+                        href="#list-messages" role="tab" aria-controls="messages">Contact</a>
+
+            </div>
+        </div>
+    </nav>
+
+
+
     <div class="container-fluid">
 
         <div class="row">
@@ -79,13 +109,13 @@
                 </div>
 
                 <div class="tab-content content-site" id="nav-tabContent">
-                    <div class="tab-pane fade show active" id="list-home" role="tabpanel"
+                    <div class="tab-pane fade show active row" id="list-home" role="tabpanel"
                         aria-labelledby="list-home-list">
-                        <div class="row justify-content-md-center">
+                        <div class="justify-content-md-center">
                             <h1 class="title-with-border">About me</h1>
                         </div>
-                        <div class="row justify-content-md-center">
-                            <div class="jumbotron col-md-10">
+                        <div class="justify-content-md-center padding-element">
+                            <div class="jumbotron">
                                 <div class="media">
                                     <img width="220px" height="220px"
                                         src="https://avatars0.githubusercontent.com/u/44781491?s=460&u=cf64132a961538987182f042e875e6114b303d15&v=4"
@@ -100,26 +130,25 @@
                                         <br />
                                         Hi! My name is Romário Medeiros and I am a developer with more than two years of
                                         professional and amateur experience.
-                                        I develop some personal projects, Currently, my work and as a support in TJDFT.
-                                        I'm in Brazil, but I'm willing to face new challenges here or anywhere in the
-                                        world.
+                                        I develop some personal projects, currently I am a Backend developer at SCALE
+                                        COMPANY.
                                         <br />
                                         I have some hobbies, what I like most is traveling, playing sports
                                         and raising ornamental birds.
                                     </div>
                                 </div>
-                                <div class="row" style="margin-left: 100px; margin-top: 35px;">
-                                    <div class="col-md-4">
+                                <div class="row" style="margin-left: 100px; margin-top: 35px; text-align: right;">
+                                    <div class="col-lg-4">
                                         <i class="fas fa-medal fa-2x"></i>
                                         <h8 class="about-me-rodape">Junior Web Developer</h8>
                                     </div>
 
-                                    <div class="col-md-4">
+                                    <div class="col-lg-4">
                                         <i class="fas fa-user-astronaut fa-2x"></i>
                                         <h8 class="about-me-rodape">Available for hire</h8>
                                     </div>
-                                    <div class="col-md-4">
-                                        <a target="_blanck" href="https://drive.google.com/file/d/1J-NcpBOgEz7LOdDcoOnvfQ1MqUlXgzh8/view?usp=sharing">
+                                    <div class="col-lg-4">
+                                        <a href="#">
                                             <i class="fas fa-download fa-2x" style="color: white;"></i>
                                             <h8 class="about-me-rodape">Download CV</h8>
                                         </a>
@@ -127,13 +156,13 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row justify-content-md-center">
+                        <div class="justify-content-md-center">
                             <h1 class="title-with-border">Services</h1>
                         </div>
 
-                        <div class="row justify-content-md-center">
-                            <div class="row col-md-10">
-                                <div class="col-md-4">
+                        <div class="justify-content-md-center padding-element">
+                            <div class="row">
+                                <div class="col-lg-4">
                                     <div class="card service">
                                         <div class="card-body">
                                             <div class="service-icon">
@@ -144,7 +173,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-lg-4">
                                     <div class="card service">
                                         <div class="card-body">
                                             <div class="service-icon">
@@ -157,7 +186,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-lg-4">
                                     <div class="card service">
                                         <div class="card-body">
                                             <div class="service-icon">
@@ -172,7 +201,7 @@
                                 </div>
                             </div>
                             <div class="row col-md-10" style="margin-top: 20px;">
-                                <div class="col-md-4">
+                                <div class="col-lg-4">
                                     <div class="card service">
                                         <div class="card-body">
                                             <div class="service-icon">
@@ -180,7 +209,8 @@
                                             </div>
                                             <h5 class="card-title">Tools</h5>
 
-                                            <p class="card-text">VS Code, STS, Eclipse, Git & GitHub, Scrum, Bootstrap</p>
+                                            <p class="card-text">VS Code, STS, Eclipse, Git & GitHub, Scrum, Bootstrap
+                                            </p>
 
                                         </div>
                                     </div>
@@ -189,16 +219,26 @@
                         </div>
                     </div>
 
-                    <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
-                        <div class="row justify-content-md-center">
+                    <div class="tab-pane fade row" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+                        <div class="justify-content-md-center">
                             <h1 class="title-with-border">Resume</h1>
                         </div>
                         <div class="row justify-content-md-center">
                             <div class="jumbotron col-md-10">
                                 <div class="row col-md-12">
-                                    <div class="col-md-6">
+                                    <div class="col-md-12">
                                         <h3>Experience</h3>
                                         <ul class="timeline">
+                                            <li>
+                                                <h6 class="title-resume">
+                                                    <a>Developer</a>
+                                                    <a class="float-right">Julho, 2020 | SCALEcpny</a>
+                                                </h6>
+                                                <p>
+                                                    Development and maintenance of new features with Javascript,
+                                                    Node.JS, Express and MongoDB.
+                                                </p>
+                                            </li>
                                             <li>
                                                 <h6 class="title-resume">
                                                     <a>Internship - User Support</a>
@@ -230,7 +270,7 @@
                                             </li>
                                         </ul>
                                     </div>
-                                    <div class="col-md-6">
+                                    <div class="col-md-12" >
                                         <h3>Formation</h3>
                                         <ul class="timeline">
                                             <li>
@@ -262,7 +302,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row justify-content-md-center">
+                        <div class="justify-content-md-center">
                             <h1 class="title-with-border">Skills</h1>
                         </div>
                         <div class="row justify-content-md-center">
@@ -326,8 +366,8 @@
                                 <span>
                                     Git
                                     <div class="progress">
-                                        <div class="progress-bar" role="progressbar" style="width: 80%;"
-                                            aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                                        <div class="progress-bar" role="progressbar" style="width: 45%;"
+                                            aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">45%</div>
                                     </div>
                                 </span>
                                 <span>
@@ -384,7 +424,7 @@
                     </div>
 
                     <div class="tab-pane fade" id="list-courses" role="tabpanel" aria-labelledby="list-messages-list">
-                        <div class="row justify-content-md-center">
+                        <div class="justify-content-md-center">
                             <h1 class="title-with-border">Courses</h1>
                         </div>
                         <div class="row justify-content-md-center">
@@ -421,7 +461,7 @@
                                             </li>
                                             </p>
                                             <li>
-                                                <p class="title-course">Cursos de aprimoramento e revisao - Alura | 2019
+                                                <p class="title-course">Improvement and review courses - Alura | 2019
                                                     - 2020</p>
                                                 <p>
                                                     Several courses for learning and improvement. <a target="_blanck"
@@ -436,7 +476,7 @@
                         </div>
                     </div>
                     <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
-                        <div class="row justify-content-md-center">
+                        <div class="justify-content-md-center">
                             <h1 class="title-with-border">Contact</h1>
                         </div>
                         <div class="row justify-content-md-center">
@@ -477,6 +517,7 @@
                 </div>
             </div>
         </div>
+    </div>
 </body>
 
 </html>
