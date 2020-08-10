@@ -186,6 +186,7 @@ ul.timeline > li:before {
     font: bold;
 }
 
+
 /* Timeline style END */
 
 @media (max-width: 600px) {
@@ -201,7 +202,7 @@ ul.timeline > li:before {
     margin-left: 0px;
   }
   .tab-pane {
-      padding-top: 10px;
+      padding-top: 70px;
   }
 }
 
